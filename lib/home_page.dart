@@ -61,3 +61,21 @@ class LeafBorderText extends StatelessWidget {
     );
   }
 }
+
+
+
+class BaseLayout extends StatelessWidget{
+  const BaseLayout({super.key});
+
+  @override
+  Widget build(BuildContext context){
+    return  Scaffold(
+      body:  Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: [
+           Image.asset("Images/wobafet.jpg") 
+        ]
+      )
+    );
+  }
+}
